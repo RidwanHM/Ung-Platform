@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@1,300&display=swap');
+
+.UP-logo{
+    width: auto;
+    height: 6vh;
+}
+
+.fab {
+    font-family: "Font Awesome 6 Brands";
+    font-size: xx-large;
+    
+}
+
+.nav{
+    position: sticky;
+    width: 100%;
+    height: 3rem;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.nav:hover{
+    border-radius: 10px;
+    box-shadow: 2px 26px 80px -11px rgba(0,0,0,0.78);
+-webkit-box-shadow: 2px 26px 80px -11px rgba(0,0,0,0.78);
+-moz-box-shadow: 2px 26px 80px -11px rgba(0,0,0,0.78);
+background-color: rgba(255, 255, 255, 0.063);
+}
+
+.background-image {
+    position: absolute;
+    margin-top: 4rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 72vh;
+    background-image: url(/src/UP\ grill.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+  }
+
+  .main-content{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 15vh;
+    padding-left: 2rem;
+}
+
+.container-front-page{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.front-page-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    color: #000000;
+    backdrop-filter: blur(1px);
+    
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    color: #000000;
+    backdrop-filter: blur(1px);
+}
+
+.slogan {
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+    font-size: calc(1rem + 3vw);
+    transition: 0.5s ease;
+    border-radius: 15px;
+    backdrop-filter: blur(1px);
+}
+
+.container-front-page span{
+    color: #efac02;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: auto;
+    }
+
+    section[role="list"] {
+        margin-top: 228px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+      }
+      
+      .list-container {
+        background-color: #0106155c;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+
+      footer{
+        padding-top: 2rem;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+
+      .footer-logo{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        height: 10vh;
+      }
+
